@@ -60,7 +60,7 @@ DWORD ThreadProc(LPVOID lpParam)
     DispatchMessage(&msg);
   }
   UnhookWindowsHookEx(hhook);
-  delete context;
+  //delete context;
   return TRUE;
 }
 
